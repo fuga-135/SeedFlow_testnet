@@ -1,0 +1,163 @@
+{
+  "navbar": {
+    "home": "ホーム",
+    "getFinancing": "融資を受ける",
+    "insurance": "保険",
+    "community": "コミュニティ",
+    "learn": "学習",
+    "dashboard": "ダッシュボード"
+  },
+  "home": {
+    "hero": {
+      "title": "スマート保険付き即時融資",
+      "subtitle": "農家や小規模事業主向けのパラメトリック保険が組み込まれた小口融資にすぐにアクセスできます。",
+      "cta": "今すぐ申し込む"
+    },
+    "features": {
+      "loans": {
+        "title": "即時融資",
+        "description": "従来の担保なしで小口融資にすぐにアクセスできます。"
+      },
+      "insurance": {
+        "title": "スマート保険",
+        "description": "検証済みのオラクルデータによって自動的に発動するパラメトリック保険。"
+      },
+      "security": {
+        "title": "安全性と透明性",
+        "description": "最大限のセキュリティと透明性を実現するSolanaブロックチェーン上に構築。"
+      }
+    },
+    "howItWorks": {
+      "title": "利用方法",
+      "step1": {
+        "title": "ウォレットを接続",
+        "description": "Solanaウォレットを接続して始めましょう"
+      },
+      "step2": {
+        "title": "融資を申し込む",
+        "description": "簡単な申込フォームに記入します"
+      },
+      "step3": {
+        "title": "保険を取得",
+        "description": "パラメトリック保険のカバレッジを受け取ります"
+      },
+      "step4": {
+        "title": "資金を受け取る",
+        "description": "融資にすぐにアクセスできます"
+      }
+    }
+  },
+  "community": {
+    "hero": {
+      "title": "SeedFlowコミュニティに参加しよう",
+      "subtitle": "他の起業家、農家、金融包摂の提唱者とつながり、経験を共有し、より強力なエコシステムを構築しましょう。"
+    },
+    "forums": {
+      "title": "コミュニティフォーラム",
+      "farmers": {
+        "title": "農家ネットワーク",
+        "description": "他の農家とつながり、農業のヒント、天候の洞察、市場情報を共有しましょう。",
+        "cta": "ディスカッションに参加 →"
+      },
+      "business": {
+        "title": "小規模ビジネスハブ",
+        "description": "他の小規模事業主とビジネス戦略、マーケティングのヒント、成長のコツを交換しましょう。",
+        "cta": "ディスカッションに参加 →"
+      }
+    },
+    "events": {
+      "title": "今後のイベント",
+      "event1": {
+        "date": "ウェビナー • 2023年7月15日",
+        "title": "マイクロファイナンスと気候レジリエンス",
+        "description": "パラメトリック保険があなたのビジネスを気候リスクから守る方法を学びましょう。"
+      },
+      "event2": {
+        "date": "ワークショップ • 2023年8月3日",
+        "title": "デジタル金融リテラシー",
+        "description": "ビジネス成長のためのデジタル金融ツールの使用に関する実践的なワークショップ。"
+      }
+    },
+    "ambassador": {
+      "title": "SeedFlowアンバサダーになる",
+      "description": "あなたのコミュニティで金融包摂を広めるお手伝いをしましょう。アンバサダープログラムに参加して、マイクロファイナンスについて他の人に教え、報酬を得ましょう。",
+      "cta": "今すぐ申し込む"
+    }
+  },
+  "learn": {
+    "hero": {
+      "title": "金融知識ハブ",
+      "subtitle": "マイクロファイナンス、パラメトリック保険、金融包摂のためのブロックチェーン技術を理解するのに役立つリソースを探索しましょう。"
+    },
+    "topics": {
+      "microfinance": {
+        "title": "マイクロファイナンスの基礎",
+        "links": {
+          "what": "マイクロファイナンスとは？",
+          "how": "マイクロクレジットの仕組み",
+          "repayment": "返済戦略",
+          "stories": "成功事例"
+        }
+      },
+      "insurance": {
+        "title": "パラメトリック保険",
+        "links": {
+          "understanding": "パラメトリック保険を理解する",
+          "weather": "天候指数保険",
+          "oracle": "オラクルデータとトリガー",
+          "climate": "気候リスク管理"
+        }
+      },
+      "blockchain": {
+        "title": "ブロックチェーン＆DeFi",
+        "links": {
+          "basics": "ブロックチェーンの基礎",
+          "solana": "初心者のためのSolana",
+          "contracts": "スマートコントラクトの説明",
+          "inclusion": "金融包摂のためのDeFi"
+        }
+      }
+    },
+    "featured": {
+      "tag": "おすすめガイド",
+      "title": "SeedFlowを始めるには",
+      "description": "このガイドでは、ウォレットの設定から最初のローンの申請、パラメトリック保険のカバレッジの理解まで、SeedFlowを始めるために知っておくべきすべてを説明します。",
+      "cta": "ガイドを読む",
+      "resources": {
+        "title": "クイックリソース",
+        "glossary": "マイクロファイナンス用語集",
+        "videos": "ビデオチュートリアル",
+        "faq": "よくある質問"
+      }
+    }
+  },
+  "languages": {
+    "en": "English",
+    "ja": "日本語",
+    "sw": "Swahili",
+    "fr": "French",
+    "km": "Khmer"
+  },
+  "wallet": {
+    "connect": "ウォレットを接続",
+    "connected": "接続済み",
+    "disconnect": "切断",
+    "balance": "残高",
+    "address": "アドレス",
+    "status": "接続状態",
+    "notConnected": "ウォレット未接続",
+    "test": "ウォレットテスト",
+    "loading": "読み込み中...",
+    "refreshBalance": "残高を更新",
+    "clickToConnect": "上のボタンをクリックしてウォレットを接続してください。",
+    "testInstructions": {
+      "title": "テスト手順:",
+      "step1": "「Select Wallet」ボタンをクリックしてウォレットを選択",
+      "step2": "Phantom、Solflare、またはその他のSolanaウォレットを選択",
+      "step3": "ウォレット拡張機能で接続を承認",
+      "step4": "接続状態、アドレス、残高が表示されることを確認",
+      "note": "注意:",
+      "devnet": "このテストはSolanaのDevnet上で行われます。"
+    }
+  }
+} 

@@ -1,0 +1,163 @@
+{
+  "navbar": {
+    "home": "Home",
+    "getFinancing": "Get Financing",
+    "insurance": "Insurance",
+    "community": "Community",
+    "learn": "Learn",
+    "dashboard": "Dashboard"
+  },
+  "home": {
+    "hero": {
+      "title": "Instant Loans with Smart Insurance",
+      "subtitle": "Get instant access to small loans with built-in parametric insurance for farmers and small entrepreneurs.",
+      "cta": "Apply Now"
+    },
+    "features": {
+      "loans": {
+        "title": "Instant Loans",
+        "description": "Get quick access to small loans without the need for traditional collateral."
+      },
+      "insurance": {
+        "title": "Smart Insurance",
+        "description": "Parametric insurance automatically triggered by verified oracle data."
+      },
+      "security": {
+        "title": "Secure & Transparent",
+        "description": "Built on Solana blockchain for maximum security and transparency."
+      }
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "step1": {
+        "title": "Connect Wallet",
+        "description": "Link your Solana wallet to get started"
+      },
+      "step2": {
+        "title": "Apply for Loan",
+        "description": "Fill out the simple application form"
+      },
+      "step3": {
+        "title": "Get Insurance",
+        "description": "Receive parametric insurance coverage"
+      },
+      "step4": {
+        "title": "Receive Funds",
+        "description": "Get instant access to your loan"
+      }
+    }
+  },
+  "community": {
+    "hero": {
+      "title": "Join the SeedFlow Community",
+      "subtitle": "Connect with other entrepreneurs, farmers, and financial inclusion advocates to share experiences and build a stronger ecosystem."
+    },
+    "forums": {
+      "title": "Community Forums",
+      "farmers": {
+        "title": "Farmer's Network",
+        "description": "Connect with other farmers to share agricultural tips, weather insights, and market information.",
+        "cta": "Join Discussion →"
+      },
+      "business": {
+        "title": "Small Business Hub",
+        "description": "Exchange business strategies, marketing tips, and growth hacks with other small business owners.",
+        "cta": "Join Discussion →"
+      }
+    },
+    "events": {
+      "title": "Upcoming Events",
+      "event1": {
+        "date": "WEBINAR • JUL 15, 2023",
+        "title": "Microfinance & Climate Resilience",
+        "description": "Learn how parametric insurance can help protect your business from climate risks."
+      },
+      "event2": {
+        "date": "WORKSHOP • AUG 3, 2023",
+        "title": "Digital Financial Literacy",
+        "description": "Hands-on workshop on using digital financial tools for business growth."
+      }
+    },
+    "ambassador": {
+      "title": "Become a SeedFlow Ambassador",
+      "description": "Help spread financial inclusion in your community. Join our ambassador program to educate others about microfinance and earn rewards.",
+      "cta": "Apply Now"
+    }
+  },
+  "learn": {
+    "hero": {
+      "title": "Financial Knowledge Hub",
+      "subtitle": "Explore resources to help you understand microfinance, parametric insurance, and blockchain technology for financial inclusion."
+    },
+    "topics": {
+      "microfinance": {
+        "title": "Microfinance Basics",
+        "links": {
+          "what": "What is Microfinance?",
+          "how": "How Microcredit Works",
+          "repayment": "Repayment Strategies",
+          "stories": "Success Stories"
+        }
+      },
+      "insurance": {
+        "title": "Parametric Insurance",
+        "links": {
+          "understanding": "Understanding Parametric Insurance",
+          "weather": "Weather Index Insurance",
+          "oracle": "Oracle Data & Triggers",
+          "climate": "Climate Risk Management"
+        }
+      },
+      "blockchain": {
+        "title": "Blockchain & DeFi",
+        "links": {
+          "basics": "Blockchain Basics",
+          "solana": "Solana for Beginners",
+          "contracts": "Smart Contracts Explained",
+          "inclusion": "DeFi for Financial Inclusion"
+        }
+      }
+    },
+    "featured": {
+      "tag": "FEATURED GUIDE",
+      "title": "Getting Started with SeedFlow",
+      "description": "This comprehensive guide walks you through everything you need to know to get started with SeedFlow - from setting up your wallet to applying for your first loan and understanding your parametric insurance coverage.",
+      "cta": "Read Guide",
+      "resources": {
+        "title": "Quick Resources",
+        "glossary": "Microfinance Glossary",
+        "videos": "Video Tutorials",
+        "faq": "FAQ"
+      }
+    }
+  },
+  "languages": {
+    "en": "English",
+    "ja": "日本語",
+    "sw": "Swahili",
+    "fr": "French",
+    "km": "Khmer"
+  },
+  "wallet": {
+    "connect": "Connect Wallet",
+    "connected": "Connected",
+    "disconnect": "Disconnect",
+    "balance": "Balance",
+    "address": "Address",
+    "status": "Status",
+    "notConnected": "Wallet not connected",
+    "test": "Wallet Test",
+    "loading": "Loading...",
+    "refreshBalance": "Refresh Balance",
+    "clickToConnect": "Click the button above to connect your wallet.",
+    "testInstructions": {
+      "title": "Test Instructions:",
+      "step1": "Click the \"Select Wallet\" button to choose a wallet",
+      "step2": "Select Phantom, Solflare, or another Solana wallet",
+      "step3": "Approve the connection in your wallet extension",
+      "step4": "Verify that connection status, address, and balance are displayed",
+      "note": "Note:",
+      "devnet": "This test is conducted on the Solana Devnet."
+    }
+  }
+} 

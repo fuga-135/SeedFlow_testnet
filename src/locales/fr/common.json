@@ -1,0 +1,163 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "getFinancing": "Obtenir un Financement",
+    "insurance": "Assurance",
+    "community": "Communauté",
+    "learn": "Apprendre",
+    "dashboard": "Tableau de Bord"
+  },
+  "home": {
+    "hero": {
+      "title": "Prêts Instantanés avec Assurance Intelligente",
+      "subtitle": "Accédez instantanément à des microcrédits avec une assurance paramétrique intégrée pour les agriculteurs et les petits entrepreneurs.",
+      "cta": "Demander Maintenant"
+    },
+    "features": {
+      "loans": {
+        "title": "Prêts Instantanés",
+        "description": "Accédez rapidement à des petits prêts sans besoin de garanties traditionnelles."
+      },
+      "insurance": {
+        "title": "Assurance Intelligente",
+        "description": "Assurance paramétrique automatiquement déclenchée par des données oracle vérifiées."
+      },
+      "security": {
+        "title": "Sécurisé & Transparent",
+        "description": "Construit sur la blockchain Solana pour une sécurité et une transparence maximales."
+      }
+    },
+    "howItWorks": {
+      "title": "Comment Ça Fonctionne",
+      "step1": {
+        "title": "Connecter le Portefeuille",
+        "description": "Liez votre portefeuille Solana pour commencer"
+      },
+      "step2": {
+        "title": "Demander un Prêt",
+        "description": "Remplissez le formulaire de demande simple"
+      },
+      "step3": {
+        "title": "Obtenir l'Assurance",
+        "description": "Recevez une couverture d'assurance paramétrique"
+      },
+      "step4": {
+        "title": "Recevoir les Fonds",
+        "description": "Accédez instantanément à votre prêt"
+      }
+    }
+  },
+  "community": {
+    "hero": {
+      "title": "Rejoignez la Communauté SeedFlow",
+      "subtitle": "Connectez-vous avec d'autres entrepreneurs, agriculteurs et défenseurs de l'inclusion financière pour partager des expériences et construire un écosystème plus fort."
+    },
+    "forums": {
+      "title": "Forums Communautaires",
+      "farmers": {
+        "title": "Réseau des Agriculteurs",
+        "description": "Connectez-vous avec d'autres agriculteurs pour partager des conseils agricoles, des informations météorologiques et des informations sur le marché.",
+        "cta": "Rejoindre la Discussion →"
+      },
+      "business": {
+        "title": "Hub des Petites Entreprises",
+        "description": "Échangez des stratégies commerciales, des conseils marketing et des astuces de croissance avec d'autres propriétaires de petites entreprises.",
+        "cta": "Rejoindre la Discussion →"
+      }
+    },
+    "events": {
+      "title": "Événements à Venir",
+      "event1": {
+        "date": "WEBINAIRE • 15 JUIL 2023",
+        "title": "Microfinance & Résilience Climatique",
+        "description": "Apprenez comment l'assurance paramétrique peut aider à protéger votre entreprise contre les risques climatiques."
+      },
+      "event2": {
+        "date": "ATELIER • 3 AOÛT 2023",
+        "title": "Littératie Financière Numérique",
+        "description": "Atelier pratique sur l'utilisation des outils financiers numériques pour la croissance des entreprises."
+      }
+    },
+    "ambassador": {
+      "title": "Devenez Ambassadeur SeedFlow",
+      "description": "Aidez à répandre l'inclusion financière dans votre communauté. Rejoignez notre programme d'ambassadeurs pour éduquer les autres sur la microfinance et gagner des récompenses.",
+      "cta": "Postuler Maintenant"
+    }
+  },
+  "learn": {
+    "hero": {
+      "title": "Centre de Connaissances Financières",
+      "subtitle": "Explorez les ressources pour vous aider à comprendre la microfinance, l'assurance paramétrique et la technologie blockchain pour l'inclusion financière."
+    },
+    "topics": {
+      "microfinance": {
+        "title": "Bases de la Microfinance",
+        "links": {
+          "what": "Qu'est-ce que la Microfinance?",
+          "how": "Comment Fonctionne le Microcrédit",
+          "repayment": "Stratégies de Remboursement",
+          "stories": "Histoires de Réussite"
+        }
+      },
+      "insurance": {
+        "title": "Assurance Paramétrique",
+        "links": {
+          "understanding": "Comprendre l'Assurance Paramétrique",
+          "weather": "Assurance Indice Météorologique",
+          "oracle": "Données Oracle & Déclencheurs",
+          "climate": "Gestion des Risques Climatiques"
+        }
+      },
+      "blockchain": {
+        "title": "Blockchain & DeFi",
+        "links": {
+          "basics": "Principes de Base de la Blockchain",
+          "solana": "Solana pour les Débutants",
+          "contracts": "Contrats Intelligents Expliqués",
+          "inclusion": "DeFi pour l'Inclusion Financière"
+        }
+      }
+    },
+    "featured": {
+      "tag": "GUIDE VEDETTE",
+      "title": "Commencer avec SeedFlow",
+      "description": "Ce guide complet vous explique tout ce que vous devez savoir pour démarrer avec SeedFlow - de la configuration de votre portefeuille à la demande de votre premier prêt et à la compréhension de votre couverture d'assurance paramétrique.",
+      "cta": "Lire le Guide",
+      "resources": {
+        "title": "Ressources Rapides",
+        "glossary": "Glossaire de la Microfinance",
+        "videos": "Tutoriels Vidéo",
+        "faq": "FAQ"
+      }
+    }
+  },
+  "languages": {
+    "en": "English",
+    "ja": "日本語",
+    "sw": "Kiswahili",
+    "fr": "Français",
+    "km": "ខ្មែរ"
+  },
+  "wallet": {
+    "connect": "Connecter le Portefeuille",
+    "connected": "Connecté",
+    "disconnect": "Déconnecter",
+    "balance": "Solde",
+    "address": "Adresse",
+    "status": "Statut",
+    "notConnected": "Portefeuille non connecté",
+    "test": "Test de Portefeuille",
+    "loading": "Chargement...",
+    "refreshBalance": "Actualiser le Solde",
+    "clickToConnect": "Cliquez sur le bouton ci-dessus pour connecter votre portefeuille.",
+    "testInstructions": {
+      "title": "Instructions de Test:",
+      "step1": "Cliquez sur le bouton \"Select Wallet\" pour choisir un portefeuille",
+      "step2": "Sélectionnez Phantom, Solflare ou un autre portefeuille Solana",
+      "step3": "Approuvez la connexion dans votre extension de portefeuille",
+      "step4": "Vérifiez que l'état de la connexion, l'adresse et le solde sont affichés",
+      "note": "Note:",
+      "devnet": "Ce test est effectué sur le Devnet de Solana."
+    }
+  }
+} 

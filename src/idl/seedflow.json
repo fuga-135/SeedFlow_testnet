@@ -1,0 +1,361 @@
+{
+  "version": "0.1.0",
+  "name": "seedflow",
+  "instructions": [
+    {
+      "name": "initializeLoan",
+      "accounts": [
+        {
+          "name": "borrower",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "loan",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "borrowerTokenAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "loanTokenAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "tokenProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "systemProgram",
+          "isMut": false,
+          "isSigner": false
+        },
+        {
+          "name": "rent",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u64"
+        },
+        {
+          "name": "duration",
+          "type": "i64"
+        },
+        {
+          "name": "insuranceConfig",
+          "type": {
+            "defined": "InsuranceConfig"
+          }
+        }
+      ]
+    },
+    {
+      "name": "processInsuranceClaim",
+      "accounts": [
+        {
+          "name": "loan",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "oracle",
+          "isMut": false,
+          "isSigner": true
+        },
+        {
+          "name": "loanTokenAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "borrowerTokenAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "tokenProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "oracleData",
+          "type": {
+            "vec": {
+              "defined": "OracleData"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "repayLoan",
+      "accounts": [
+        {
+          "name": "loan",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "borrower",
+          "isMut": true,
+          "isSigner": true
+        },
+        {
+          "name": "borrowerTokenAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "loanTokenAccount",
+          "isMut": true,
+          "isSigner": false
+        },
+        {
+          "name": "tokenProgram",
+          "isMut": false,
+          "isSigner": false
+        }
+      ],
+      "args": [
+        {
+          "name": "amount",
+          "type": "u64"
+        }
+      ]
+    }
+  ],
+  "accounts": [
+    {
+      "name": "Loan",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "borrower",
+            "type": "publicKey"
+          },
+          {
+            "name": "amount",
+            "type": "u64"
+          },
+          {
+            "name": "startDate",
+            "type": "i64"
+          },
+          {
+            "name": "endDate",
+            "type": "i64"
+          },
+          {
+            "name": "status",
+            "type": {
+              "defined": "LoanStatus"
+            }
+          },
+          {
+            "name": "insuranceConfig",
+            "type": {
+              "defined": "InsuranceConfig"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "types": [
+    {
+      "name": "InsuranceConfig",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "insuranceType",
+            "type": {
+              "defined": "InsuranceType"
+            }
+          },
+          {
+            "name": "minRainMm",
+            "type": "u64"
+          },
+          {
+            "name": "maxRainMm",
+            "type": "u64"
+          },
+          {
+            "name": "coverageCap",
+            "type": "u64"
+          },
+          {
+            "name": "deductibleBps",
+            "type": "u16"
+          },
+          {
+            "name": "premiumSchedule",
+            "type": {
+              "defined": "PremiumSchedule"
+            }
+          },
+          {
+            "name": "measurementPeriodDays",
+            "type": "u16"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OracleData",
+      "type": {
+        "kind": "struct",
+        "fields": [
+          {
+            "name": "provider",
+            "type": {
+              "defined": "OracleProvider"
+            }
+          },
+          {
+            "name": "timestamp",
+            "type": "i64"
+          },
+          {
+            "name": "weatherCondition",
+            "type": {
+              "defined": "WeatherCondition"
+            }
+          },
+          {
+            "name": "rainAmountMm",
+            "type": "u64"
+          },
+          {
+            "name": "cropYield",
+            "type": "u64"
+          },
+          {
+            "name": "expectedYield",
+            "type": "u64"
+          },
+          {
+            "name": "businessPerformance",
+            "type": "u64"
+          },
+          {
+            "name": "expectedPerformance",
+            "type": "u64"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LoanStatus",
+      "type": {
+        "kind": "enum",
+        "variants": [
+          {
+            "name": "Active"
+          },
+          {
+            "name": "Paid"
+          },
+          {
+            "name": "Defaulted"
+          },
+          {
+            "name": "InsuranceClaimed"
+          }
+        ]
+      }
+    },
+    {
+      "name": "InsuranceType",
+      "type": {
+        "kind": "enum",
+        "variants": [
+          {
+            "name": "Weather"
+          },
+          {
+            "name": "Crop"
+          },
+          {
+            "name": "Business"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PremiumSchedule",
+      "type": {
+        "kind": "enum",
+        "variants": [
+          {
+            "name": "Monthly"
+          },
+          {
+            "name": "LumpSum"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OracleProvider",
+      "type": {
+        "kind": "enum",
+        "variants": [
+          {
+            "name": "Pyth"
+          },
+          {
+            "name": "Switchboard"
+          },
+          {
+            "name": "Chainlink"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WeatherCondition",
+      "type": {
+        "kind": "enum",
+        "variants": [
+          {
+            "name": "Normal"
+          },
+          {
+            "name": "Adverse"
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [
+    {
+      "code": 6000,
+      "name": "InvalidLoanStatus",
+      "msg": "Invalid loan status for this operation"
+    },
+    {
+      "code": 6001,
+      "name": "InvalidOracleData",
+      "msg": "Invalid oracle data"
+    },
+    {
+      "code": 6002,
+      "name": "InsufficientOracleConsensus",
+      "msg": "Insufficient oracle consensus"
+    }
+  ]
+} 

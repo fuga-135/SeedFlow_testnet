@@ -1,0 +1,163 @@
+{
+  "navbar": {
+    "home": "Nyumbani",
+    "getFinancing": "Pata Ufadhili",
+    "insurance": "Bima",
+    "community": "Jumuiya",
+    "learn": "Jifunze",
+    "dashboard": "Dashibodi"
+  },
+  "home": {
+    "hero": {
+      "title": "Mikopo ya Haraka na Bima Mahiri",
+      "subtitle": "Pata mikopo midogo kwa haraka na bima ya parametric iliyojengwa ndani kwa wakulima na wajasiriamali wadogo.",
+      "cta": "Omba Sasa"
+    },
+    "features": {
+      "loans": {
+        "title": "Mikopo ya Haraka",
+        "description": "Pata mikopo midogo kwa haraka bila haja ya dhamana za jadi."
+      },
+      "insurance": {
+        "title": "Bima Mahiri",
+        "description": "Bima ya parametric inayoanzishwa kiotomatiki na data za oracle zilizothibitishwa."
+      },
+      "security": {
+        "title": "Salama & Wazi",
+        "description": "Imejengwa kwenye blockchain ya Solana kwa usalama na uwazi wa juu."
+      }
+    },
+    "howItWorks": {
+      "title": "Jinsi Inavyofanya Kazi",
+      "step1": {
+        "title": "Unganisha Mkoba",
+        "description": "Unganisha mkoba wako wa Solana ili kuanza"
+      },
+      "step2": {
+        "title": "Omba Mkopo",
+        "description": "Jaza fomu rahisi ya maombi"
+      },
+      "step3": {
+        "title": "Pata Bima",
+        "description": "Pokea bima ya parametric"
+      },
+      "step4": {
+        "title": "Pokea Fedha",
+        "description": "Pata fedha zako kwa haraka"
+      }
+    }
+  },
+  "community": {
+    "hero": {
+      "title": "Jiunge na Jumuiya ya SeedFlow",
+      "subtitle": "Unganisha na wajasiriamali wengine, wakulima, na watetezi wa ujumuishaji wa kifedha ili kushirikiana uzoefu na kujenga mfumo imara zaidi."
+    },
+    "forums": {
+      "title": "Vikao vya Jumuiya",
+      "farmers": {
+        "title": "Mtandao wa Wakulima",
+        "description": "Unganisha na wakulima wengine kushirikiana vidokezo vya kilimo, utambuzi wa hali ya hewa, na habari za soko.",
+        "cta": "Jiunge na Majadiliano →"
+      },
+      "business": {
+        "title": "Kituo cha Biashara Ndogo",
+        "description": "Badilishana mikakati ya biashara, vidokezo vya masoko, na mbinu za ukuaji na wamiliki wengine wa biashara ndogo.",
+        "cta": "Jiunge na Majadiliano →"
+      }
+    },
+    "events": {
+      "title": "Matukio Yajayo",
+      "event1": {
+        "date": "SEMINA • JUL 15, 2023",
+        "title": "Fedha Ndogo & Ustahimilivu wa Hali ya Hewa",
+        "description": "Jifunze jinsi bima ya parametric inaweza kulinda biashara yako kutoka kwa hatari za hali ya hewa."
+      },
+      "event2": {
+        "date": "WARSHA • AUG 3, 2023",
+        "title": "Ujuzi wa Kifedha wa Kidijitali",
+        "description": "Warsha ya vitendo juu ya kutumia vyombo vya fedha vya kidijitali kwa ukuaji wa biashara."
+      }
+    },
+    "ambassador": {
+      "title": "Kuwa Balozi wa SeedFlow",
+      "description": "Saidia kueneza ujumuishaji wa kifedha katika jamii yako. Jiunge na mpango wetu wa ubalozi kuelimisha wengine kuhusu fedha ndogo na kupata zawadi.",
+      "cta": "Omba Sasa"
+    }
+  },
+  "learn": {
+    "hero": {
+      "title": "Kituo cha Maarifa ya Kifedha",
+      "subtitle": "Gundua rasilimali za kukusaidia kuelewa fedha ndogo, bima ya parametric, na teknolojia ya blockchain kwa ujumuishaji wa kifedha."
+    },
+    "topics": {
+      "microfinance": {
+        "title": "Msingi wa Fedha Ndogo",
+        "links": {
+          "what": "Fedha Ndogo ni Nini?",
+          "how": "Jinsi Mikopo Midogo Inavyofanya Kazi",
+          "repayment": "Mikakati ya Malipo",
+          "stories": "Hadithi za Mafanikio"
+        }
+      },
+      "insurance": {
+        "title": "Bima ya Parametric",
+        "links": {
+          "understanding": "Kuelewa Bima ya Parametric",
+          "weather": "Bima ya Kiashiria cha Hali ya Hewa",
+          "oracle": "Data za Oracle & Vichocheo",
+          "climate": "Usimamizi wa Hatari za Hali ya Hewa"
+        }
+      },
+      "blockchain": {
+        "title": "Blockchain & DeFi",
+        "links": {
+          "basics": "Msingi wa Blockchain",
+          "solana": "Solana kwa Wanaoanza",
+          "contracts": "Mikataba Mahiri Imeelezwa",
+          "inclusion": "DeFi kwa Ujumuishaji wa Kifedha"
+        }
+      }
+    },
+    "featured": {
+      "tag": "MWONGOZO UNAOANGAZIWA",
+      "title": "Kuanza na SeedFlow",
+      "description": "Mwongozo huu kamili unakuongoza kupitia kila kitu unachohitaji kujua ili kuanza na SeedFlow - kutoka kwa kuweka mkoba wako hadi kuomba mkopo wako wa kwanza na kuelewa bima yako ya parametric.",
+      "cta": "Soma Mwongozo",
+      "resources": {
+        "title": "Rasilimali za Haraka",
+        "glossary": "Faharasa ya Fedha Ndogo",
+        "videos": "Mafunzo ya Video",
+        "faq": "Maswali Yanayoulizwa Mara kwa Mara"
+      }
+    }
+  },
+  "languages": {
+    "en": "English",
+    "ja": "日本語",
+    "sw": "Kiswahili",
+    "fr": "Français",
+    "km": "ខ្មែរ"
+  },
+  "wallet": {
+    "connect": "Unganisha Mkoba",
+    "connected": "Imeunganishwa",
+    "disconnect": "Tenganisha",
+    "balance": "Salio",
+    "address": "Anwani",
+    "status": "Hali",
+    "notConnected": "Mkoba haujaungaishwa",
+    "test": "Jaribio la Mkoba",
+    "loading": "Inapakia...",
+    "refreshBalance": "Onyesha Upya Salio",
+    "clickToConnect": "Bofya kitufe hapo juu ili kuunganisha mkoba wako.",
+    "testInstructions": {
+      "title": "Maagizo ya Jaribio:",
+      "step1": "Bofya kitufe cha \"Select Wallet\" kuchagua mkoba",
+      "step2": "Chagua Phantom, Solflare, au mkoba mwingine wa Solana",
+      "step3": "Idhinisha muunganisho katika programu ya mkoba wako",
+      "step4": "Thibitisha kuwa hali ya muunganisho, anwani, na salio zinaonyeshwa",
+      "note": "Kumbuka:",
+      "devnet": "Jaribio hili linafanyika kwenye Solana Devnet."
+    }
+  }
+} 
