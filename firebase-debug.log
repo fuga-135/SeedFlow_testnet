@@ -1,0 +1,72 @@
+[debug] [2025-05-18T15:56:20.576Z] ----------------------------------------------------------------------
+[debug] [2025-05-18T15:56:20.580Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ezkwt\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-05-18T15:56:20.581Z] CLI Version:   14.4.0
+[debug] [2025-05-18T15:56:20.581Z] Platform:      win32
+[debug] [2025-05-18T15:56:20.581Z] Node Version:  v22.15.1
+[debug] [2025-05-18T15:56:20.582Z] Time:          Mon May 19 2025 00:56:20 GMT+0900 (GMT+09:00)
+[debug] [2025-05-18T15:56:20.582Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-18T15:56:20.586Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-18T15:56:20.591Z] > authorizing via signed-in user (fuga135y@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ezkwt\OneDrive\デスクトップ\corsor
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-05-18T16:00:38.509Z] ----------------------------------------------------------------------
+[debug] [2025-05-18T16:00:38.516Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ezkwt\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-05-18T16:00:38.517Z] CLI Version:   14.4.0
+[debug] [2025-05-18T16:00:38.517Z] Platform:      win32
+[debug] [2025-05-18T16:00:38.518Z] Node Version:  v22.15.1
+[debug] [2025-05-18T16:00:38.518Z] Time:          Mon May 19 2025 01:00:38 GMT+0900 (GMT+09:00)
+[debug] [2025-05-18T16:00:38.519Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-18T16:00:38.527Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-18T16:00:38.527Z] > authorizing via signed-in user (fuga135y@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\ezkwt\OneDrive\デスクトップ\corsor
+
+[debug] [2025-05-18T16:00:39.682Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (C:\Users\ezkwt\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:100:37)
+    at Interface.emit (node:events:518:28)
+    at Interface.emit (node:domain:489:12)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1128:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:267:20)
+    at ReadStream.emit (node:events:530:35)
+    at ReadStream.emit (node:domain:489:12)
+    at emitKeys (node:internal/readline/utils:370:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-05-18T16:00:45.766Z] ----------------------------------------------------------------------
+[debug] [2025-05-18T16:00:45.773Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ezkwt\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create seedflow-finance --display-name SeedFlow Finance App
+[debug] [2025-05-18T16:00:45.774Z] CLI Version:   14.4.0
+[debug] [2025-05-18T16:00:45.774Z] Platform:      win32
+[debug] [2025-05-18T16:00:45.774Z] Node Version:  v22.15.1
+[debug] [2025-05-18T16:00:45.775Z] Time:          Mon May 19 2025 01:00:45 GMT+0900 (GMT+09:00)
+[debug] [2025-05-18T16:00:45.775Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-05-18T16:00:45.781Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-05-18T16:00:45.782Z] > authorizing via signed-in user (fuga135y@gmail.com)

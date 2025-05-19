@@ -2,7 +2,7 @@
   "name": "seedflow",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://seedflow-finance.github.io",
+  "homepage": "https://fuga_135.github.io/seedflow-finance",
   "description": "A Solana-based mobile dApp for providing instant small loans with parametric insurance to underserved farmers and small entrepreneurs",
   "scripts": {
     "start": "react-app-rewired start",
