@@ -2,11 +2,10 @@
   "name": "seedflow",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://fuga_135.github.io/seedflow-finance",
   "description": "A Solana-based mobile dApp for providing instant small loans with parametric insurance to underserved farmers and small entrepreneurs",
   "scripts": {
     "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
+    "build": "GENERATE_SOURCEMAP=false react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
