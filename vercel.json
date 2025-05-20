@@ -1,11 +1,15 @@
 {
   "version": 2,
+  "buildCommand": "npm run build",
+  "installCommand": "npm install --legacy-peer-deps",
+  "framework": "create-react-app",
   "builds": [
     {
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "build"
+        "distDir": "build",
+        "maxLambdaSize": "50mb"
       }
     }
   ],
@@ -34,5 +38,11 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ]
+  ],
+  "env": {
+    "REACT_APP_SOLANA_NETWORK": "devnet",
+    "REACT_APP_RPC_HOST": "https://api.devnet.solana.com",
+    "CI": "false",
+    "NODE_OPTIONS": "--max_old_space_size=4096"
+  }
 } 
